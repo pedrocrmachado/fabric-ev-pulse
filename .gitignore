@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Secrets — NEVER commit API keys
+.env
+*.key
+secrets.*
+config.local.*
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+env/
+
+# Power BI temp
+*.pbix.tmp
+~$*
+
+# OS
+.DS_Store
+Thumbs.db
